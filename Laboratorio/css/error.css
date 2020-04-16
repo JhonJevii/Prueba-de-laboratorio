@@ -1,0 +1,55 @@
+.error {
+	background-color: #FF9185;
+	font-size: 12px;
+	padding: 10px; 
+}
+
+.correcto{
+	background-color: #A0DE47;
+	font-size: 12px;
+	padding: 10px;
+}
+
+.registro{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+
+}
+
+input[type="password"], input[type="text"], input[type="email"]{
+  outline: none;
+  padding: 20px;
+  display: block;
+  width: 300px;
+  border-radius: 3px;
+  border: 1px solid #eee;
+  margin: 20px auto;
+}
+
+.mensajje {
+  width: 100%;
+  max-width: 350px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 6px;
+  color: black;
+}
+
+.cerrar {
+  display: block;
+  margin-top: 40px;
+  font-size: 20px;
+  border: 1px solid blue;
+  border-radius: 3px;
+}
+
+.mensaje{
+  width: 100%;
+  max-width: 350px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 6px;
+  color: red;
+}
